@@ -1,5 +1,5 @@
 #current_time = Time.now
-if Time.now.to_i % 2 == 0
+if Time.now.to_i.even
   puts "Even!"
 else
   puts "Odd!"
